@@ -1,0 +1,31 @@
+[
+  {
+    "model": "logistic_regression",
+    "roc_auc": 0.8380007739190731,
+    "average_precision": 0.19897275905276363,
+    "log_loss": 0.44295201102459036,
+    "fit_and_predict_seconds": 387.3947956410011,
+    "iterations": 892,
+    "warnings": []
+  },
+  {
+    "model": "lightgbm",
+    "roc_auc": 0.9107737560437371,
+    "average_precision": 0.5654101747217131,
+    "log_loss": 0.08790252040219955,
+    "fit_and_predict_seconds": 21.481337224000526,
+    "iterations": 404,
+    "warnings": [
+      "The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead."
+    ]
+  },
+  {
+    "model": "catboost",
+    "roc_auc": 0.9199844323364487,
+    "average_precision": 0.5978158901727777,
+    "log_loss": 0.0834204443915991,
+    "fit_and_predict_seconds": 354.3863963299991,
+    "iterations": 969,
+    "warnings": []
+  }
+]

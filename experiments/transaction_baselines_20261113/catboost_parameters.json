@@ -1,0 +1,11 @@
+{
+  "iterations": 1000,
+  "learning_rate": 0.05,
+  "depth": 6,
+  "loss_function": "Logloss",
+  "thread_count": 6,
+  "random_seed": 42,
+  "eval_metric": "AUC",
+  "allow_writing_files": false,
+  "task_type": "CPU"
+}

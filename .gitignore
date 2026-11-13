@@ -1,4 +1,5 @@
 # Generated datasets and analysis results
+/data/model_runs/
 /data/*_joined.csv
 /analysis/*.json
 /src/data_preprocessing/data/*_joined.csv

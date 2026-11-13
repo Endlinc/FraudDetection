@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "model": "logistic_regression",
+      "metric_recomputation": "passed",
+      "saved_model_prediction_rows": 256,
+      "categorical_dtype_invariance": "passed"
+    },
+    {
+      "model": "lightgbm",
+      "metric_recomputation": "passed",
+      "saved_model_prediction_rows": 256,
+      "categorical_dtype_invariance": "passed"
+    },
+    {
+      "model": "catboost",
+      "metric_recomputation": "passed",
+      "saved_model_prediction_rows": 256,
+      "categorical_dtype_invariance": "passed"
+    }
+  ],
+  "rows": 118108,
+  "source_feature_count": 391,
+  "excluded_features_absent": true,
+  "constant_training_prevalence_baseline": {
+    "roc_auc": 0.5,
+    "average_precision": 0.034409184813899145,
+    "log_loss": 0.14975750589714706
+  },
+  "inference_schema_note": "Original numeric categorical dtypes attached after fitting; estimators and predictions unchanged."
+}
