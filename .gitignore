@@ -1,5 +1,11 @@
-# Local datasets
-/data/
+# Generated datasets and analysis results
+/data/*_joined.csv
+/analysis/*.json
+/src/data_preprocessing/data/*_joined.csv
+
+# Temporary output and editor lock files
+*.tmp
+.~lock.*#
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
